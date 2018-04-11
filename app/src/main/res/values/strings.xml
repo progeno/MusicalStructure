@@ -1,0 +1,14 @@
+<resources>
+    <string name="app_name">Music Library</string>
+    <string name="songs">Songs</string>
+    <string name="artists">Artists</string>
+    <string name="category_songs">Songs</string>
+    <string name="category_artists">Artists</string>
+    <string name="now_playing">Now Playing</string>
+    <string name="artist_name">Kari Bremnes</string>
+    <string name="song_title">Now</string>
+    <string name="album_title">Og så kom resten av livet</string>
+    <string name="track_remaining">1:14</string>
+    <string name="track_total_length">4:37</string>
+    <string name="back"><![CDATA[<]]></string>
+</resources>

@@ -1,0 +1,75 @@
+<resources>
+
+    <style name="AppTheme" parent="Theme.AppCompat.NoActionBar">
+        <item name="colorPrimary">@color/text_primary_color</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/green</item>
+    </style>
+
+    <style name="ButtonBack">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_secondary_dark_color</item>
+        <item name="android:background">@color/background_primary_color</item>
+        <item name="android:layout_marginLeft">10sp</item>
+        <item name="android:layout_marginRight">10sp</item>
+        <item name="android:textSize">40sp</item>
+    </style>
+
+    <style name="ButtonToActivity">
+        <item name="android:textColor">@color/text_primary_color</item>
+        <item name="android:textSize">14sp</item>
+        <item name="android:background">@drawable/button_dark</item>
+        <item name="android:gravity">top|center_horizontal</item>
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_weight">1</item>
+        <item name="android:clickable">true</item>
+        <item name="android:layout_height">@dimen/button_height</item>
+    </style>
+
+    <style name="ButtonToActivity.Inactive">
+        <item name="android:textColor">@color/text_secondary_dark_color</item>
+    </style>
+
+    <style name="TextSongTitle">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_secondary_color</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:layout_marginTop">@dimen/dp8</item>
+    </style>
+
+    <style name="TextArtist">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_secondary_dark_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+    <style name="TextTitleActivity">
+        <item name="android:textSize">38sp</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/text_primary_color</item>
+    </style>
+
+    <style name="TextTime">
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/text_secondary_dark_color</item>
+        <item name="android:textSize">12sp</item>
+        <item name="android:layout_marginTop">2dp</item>
+    </style>
+
+    <style name="frameStyle">
+        <item name="android:padding">3dp</item>
+    </style>
+
+    <style name="CategoryStyle">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">@dimen/list_item_height</item>
+        <item name="android:gravity">center_vertical</item>
+        <item name="android:padding">16dp</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textStyle">bold</item>
+        <item name="android:textAppearance">?android:textAppearanceMedium</item>
+    </style>
+
+</resources>

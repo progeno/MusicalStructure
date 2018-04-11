@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/tan_background"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/dp20">
+
+    <TextView
+        android:id="@+id/tv_songs"
+        style="@style/CategoryStyle"
+        android:background="@color/category_songs"
+        android:text="@string/category_songs" />
+
+    <TextView
+        android:id="@+id/tv_artists"
+        style="@style/CategoryStyle"
+          android:background="@color/category_artists"
+        android:text="@string/category_artists" />
+
+    <TextView
+        android:id="@+id/tv_now_playing"
+        style="@style/CategoryStyle"
+        android:background="@color/category_now_playing"
+        android:text="@string/now_playing" />
+
+</LinearLayout>

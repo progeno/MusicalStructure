@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#ffffff</color>
+    <color name="gray">#a8afaa</color>
+    <color name="almostBlack">#222222</color>
+    <color name="green">#108f1b</color>
+    <color name="black">#111111</color>
+
+    <color name="text_primary_color">@color/green</color>
+    <color name="colorPrimaryDark">@color/black</color>
+    <color name="colorAccent">@color/green</color>
+
+    <color name="text_secondary_color">@color/white</color>
+    <color name="text_secondary_dark_color">@color/gray</color>
+    <color name="background_primary_color">@color/black</color>
+    <color name="background_secondary_color">@color/almostBlack</color>
+
+    <!-- Background color for app -->
+    <color name="tan_background">#FFF7DA</color>
+
+    <!-- Background color for the numbers category -->
+    <color name="category_songs">#FD8E09</color>
+
+    <!-- Background color for the family members category -->
+    <color name="category_artists">#379237</color>
+
+    <!-- Background color for the colors category -->
+    <color name="category_now_playing">#8800A0</color>
+
+</resources>
